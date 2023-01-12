@@ -1,177 +1,179 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 @media only screen and (max-width: 600px) {
-  html {
-    font-size: 7px;
-  }
+    html {
+        font-size: 7px;
+    }
 }
 
 
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
 }
-hr{
+
+hr {
     margin: 2rem 0rem;
 }
-:root{
-    --primary-color:black
-    ;
+
+:root {
+    --primary-color: black;
 }
-.container{
+
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
-.container-center{
+
+.container-center {
     max-width: 600px;
     margin: auto;
 }
 
-.blogg{
-    background-color: #fff; 
+.blogg {
+    background-color: #fff;
 }
 
-.link{
+.link {
     text-decoration: none;
     margin: auto;
-    padding: 0.5rem ;
-    color:white;
-    font-size: small;   
+    padding: 0.5rem;
+    color: white;
+    font-size: small;
 }
 
-.m-link{
-    text-decoration: none;
-    margin: auto;
-    padding: 0.8rem ;
-    color:white;
-    font-size: small;  
+.link:hover {
+    font-size: large;
 }
 
-.i-link{
-    text-decoration: none;
-    margin: auto;
-    padding: 0.8rem ;
-    color:white;
-    font-size: small;  
-}
-
-.p-link{
-    text-decoration: none;
-    margin: auto;
-    padding: 0.8rem ;
-    color:white;
-    font-size: small;  
-}
-
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 1rem;
-    color:#F3F4F6;
+    color: #F3F4F6;
     font-weight: bold;
 }
 
 
-.link:hover{
+.link:hover {
     font-size: 1.5rem;
 }
 
 
-.span{
+.span {
     background-color: #F3F4F6;
     padding: 0.2rem 0.1rem 0.2rem 0.2rem;
     color: var(--primary-color);
     border-radius: 0.5rem;
-    border:1px solid #F3F4F6;
+    border: 1px solid #F3F4F6;
     font-weight: bold;
 }
-.para_div{
-   display: flex;
-   justify-content: center;
+
+.para_div {
+    display: flex;
+    justify-content: center;
 }
-.paragraph{
+
+.paragraph {
     width: 70%;
 }
-.list{
+
+.list {
     display: inline;
     padding: 0rem 0.5rem;
 }
-.all-lists{
+
+.all-lists {
     text-align: right;
 }
-.navigation{
+
+.navigation {
     font-size: larger;
-    
+
     /* text-align: center; */
     background-color: var(--primary-color);
     border-radius: 1rem;
     padding: 1rem;
-    color:#F3F4F6;
+    color: #F3F4F6;
 }
-.hero{
+
+.hero {
     padding-top: 2rem;
 }
-.hero-img{
+
+.hero-img {
     max-width: 350px;
     margin: auto;
     display: block;
 }
-.hero .hero-heading{
+
+.hero .hero-heading {
     padding-top: 1r;
     text-align: center;
 }
-.hero .hero-heading .heading-inverted{
+
+.hero .hero-heading .heading-inverted {
     color: #d5d74a;
 }
-.section{
+
+.section {
     padding: 2rem;
     text-align: center;
     border-radius: 00.5rem;
 }
-.hr{
+
+.hr {
     color: white;
 }
-.ow{
-    background-color:#F3F4F6 ;
+
+.ow {
+    background-color: #F3F4F6;
 }
-.l{
+
+.l {
     background-color: var(--primary-color);
     padding: 1rem;
-    color:#F3F4F6 ;
+    color: #F3F4F6;
     border-radius: 00.5rem;
 }
-.footer{
+
+.footer {
     background-color: black;
     padding: 3rem;
     border-radius: 0.5rem;
     margin: auto;
 }
-.footer-d{
+
+.footer-d {
     text-align: center;
     color: #F3F4F6;
     padding: 1rem 0rem;
 }
-.s-foo{
+
+.s-foo {
     text-align: center;
     color: #F3F4F6;
     font-weight: bold;
     padding: 1rem 0rem;
 }
-.footer-e{
+
+.footer-e {
     display: inline;
     padding: 1rem;
     font-weight: bold;
     margin: auto;
-    
+
 }
-.social{
+
+.social {
     color: #F3F4F6;
     text-decoration: none;
     padding: 0.3rem 1rem;
-    border:0.2px solid #F3F4F6;
+    border: 0.2px solid #F3F4F6;
     border-radius: 0.5rem;
 }
-.active{
+
+.active {
     font-size: large;
 }
 
@@ -187,13 +189,13 @@ hr{
     max-width: 1400px;
     margin: auto;
     padding: 15px;
-  }
-  
-  h1 {
+}
+
+h1 {
     font-size: 40px;
-  }
-  
-  .blog {
+}
+
+.blog {
     background-color: orange;
     display: flex;
     flex-direction: column;
@@ -202,20 +204,20 @@ hr{
     padding: 12px;
     margin: 10px;
     border-radius: 15px;
-  }
-  
-  h2 {
+}
+
+h2 {
     padding: 15px;
     font-size: 30px;
-  }
-  
-  p {
+}
+
+p {
     font-size: 21px;
     line-height: 25px;
     padding: 10px;
-  }
-  
-  .btn {
+}
+
+.btn {
     padding: 8px 16px;
     cursor: pointer;
     font-size: 19px;
@@ -223,4 +225,4 @@ hr{
     border-radius: 10px;
     border: none;
     outline: none;
-  }
+}
